@@ -7,11 +7,6 @@ import org.junit.Test;
 public class FizzBuzzTest {
     
     FizzBuzz fizz = new FizzBuzz();
-
-    @Test
-    public void print_1_to_20(){
-        assertEquals("1234567891011121314151617181920", fizz.fizzbuzz());
-    }
     
     @Test
     public void multiples_of_three_should_be_Fizz(){
