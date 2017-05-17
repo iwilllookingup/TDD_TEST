@@ -8,7 +8,7 @@
 
 ### Application Environment
 
-Explaination : You can overide usage environment variable follow tables below.
+*Explaination* : You can overide usage environment variable follow tables below.
 Note : If you want to overide config in properti file you can do it directly through /src/main/resources/config/application.properties path. 
 
 ```bash
@@ -30,8 +30,8 @@ System Log Config
 
 |           Name                  |                            Description                            |                Example                  |
 |---------------------------------|-------------------------------------------------------------------|-----------------------------------------|
-| XPLSS_REDIS_HOSTREDISLOG        | Host ip for Redis.                                                | XPLSS_REDIS_HOSTREDISLOG=172.19.208.43  |
-| XPLSS_REDIS_PORTREDISLOG        | Port for Redis.                                                   | XPLSS_REDIS_PORTREDISLOG=6379           |
+| XPLSS_REDIS_HOSTREDISLOG        | Host IP for Redis server.                                         | XPLSS_REDIS_HOSTREDISLOG=172.19.208.43  |
+| XPLSS_REDIS_PORTREDISLOG        | Port for Redis server.                                            | XPLSS_REDIS_PORTREDISLOG=6379           |
 | XPLSS_REDIS_ERRORLISTKEY        | Key for Redis when operation error.                               | XPLSS_REDIS_ERRORLISTKEY=OMXErrorLog    |
 | XPLSS_REDIS_OMXMESSAGEEXPIEDAYS | Expried date number of Redis.                                     | XPLSS_REDIS_OMXMESSAGEEXPIEDAYS=100     |
 | XPLSS_REDIS_OMXMESSAGEKEYPREFIX | Set prefix for Redis key.                                         | XPLSS_REDIS_OMXMESSAGEKEYPREFIX=OMXlog: |
@@ -65,8 +65,8 @@ OMX JMS Result Config
 |           Name        |                            Description                            |                              Example                                  |
 |-----------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------|
 | XPLSS_JMS_URL         | Url for JMS server.                                               | XPLSS_JMS_URL=tcp://172.19.211.101:7222                               |
-| XPLSS_JMS_USER        | User for JMS.                                                     | XPLSS_JMS_USER=Notification                                           |
-| XPLSS_JMS_PASSWORD    | Password for JMS.                                                 | XPLSS_JMS_PASSWORD=OMXNotification                                    |
+| XPLSS_JMS_USER        | User for JMS serve                                                | XPLSS_JMS_USER=Notification                                           |
+| XPLSS_JMS_PASSWORD    | Password for JMS server.                                          | XPLSS_JMS_PASSWORD=OMXNotification                                    |
 | XPLSS_JMS_FACTORYNAME | JNDI name.                                                        | XPLSS_JMS_FACTORYNAME=TopicConnectionFactory                          |
 | XPLSS_JMS_DURABLENAME | 		                                                    | XPLSS_JMS_DURABLENAME=UAT_SET05.DP_XPLSS                              |
 | XPLSS_JMS_TOPIC       | Topic that we subscribed.                                         | XPLSS_JMS_TOPIC=UAT_SET05.true.omx.external.order.status.notification |
