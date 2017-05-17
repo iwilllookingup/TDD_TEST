@@ -12,7 +12,7 @@ Explaination : You can overide usage environment variable follow tables below.
 Note : If you want to overide config in properti file you can do it directly through /src/main/resources/config/application.properties path. 
 
 ```bash
-*Application Log Config*
+Application Log Config
 
 |           Name          |                            Description                            |                             Example                              |
 |-------------------------|-------------------------------------------------------------------|------------------------------------------------------------------|
@@ -26,7 +26,7 @@ Note : If you want to overide config in properti file you can do it directly thr
 
 
 ```bash
-*System Log Config*
+System Log Config
 
 |           Name                  |                            Description                            |                Example                  |
 |---------------------------------|-------------------------------------------------------------------|-----------------------------------------|
@@ -40,7 +40,7 @@ Note : If you want to overide config in properti file you can do it directly thr
 
 
 ```bash
-*Gearman Config*
+Gearman Config
 
 |           Name            |                            Description                            |                 Example                 |
 |---------------------------|-------------------------------------------------------------------|-----------------------------------------|
@@ -50,7 +50,7 @@ Note : If you want to overide config in properti file you can do it directly thr
 
 
 ```bash
-*Gearman Service Config*
+Gearman Service Config
 
 |           Name                 |                            Description                            |                 Example                    |
 |--------------------------------|-------------------------------------------------------------------|--------------------------------------------|
@@ -60,7 +60,7 @@ Note : If you want to overide config in properti file you can do it directly thr
 
 
 ```bash
-*OMX JMS Result Config* 
+OMX JMS Result Config
 
 |           Name        |                            Description                            |                              Example                                  |
 |-----------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------|
